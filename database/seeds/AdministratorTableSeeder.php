@@ -12,7 +12,7 @@ class AdministratorTableSeeder extends Seeder
      */
     public function run()
     {
-        $admin = Administrator::create(['name' => 'Razaq Ogunlade', 'email' => 'razaqofficial@gmail.com', 'password' =>'nicholas1']);
+        $admin = Administrator::create(['name' => 'Razaq Ogunlade', 'email' => 'razaqofficial@gmail.com', 'password' =>'razaq123']);
      // $admin->assignRole('Developer');
     }
 }
